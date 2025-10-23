@@ -31,9 +31,9 @@ function CreateBasicLayer()
 {
     let outLayer = 
     {
-        id: "radial",
+        id: "basicSquare",
         type: "custom",
-
+        
         onAdd (inMap, inGL)
         {
             this.basicLayer = new BasicLayer (inMap, inGL);
