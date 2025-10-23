@@ -41,7 +41,8 @@ function CreateBasicLayer()
 
         render (inGL, inArgs)
         {
-            this.basicLayer.drawLayer(inGL, inArgs);
+            if (this.basicLayer) 
+                this.basicLayer.drawLayer(inGL, inArgs);
         }
     }
     return outLayer;

@@ -44,7 +44,9 @@ export class BasicLayer
         {
             if (i == 3)
             {
-                colorValue[i] = 0;
+                colorValue[0] = 128;
+                colorValue[1] = 128;
+                colorValue[3] = 0;
             }
             else colorValue[i] = 255;
             
