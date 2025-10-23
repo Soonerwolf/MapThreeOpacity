@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <title>ThreeJS on MapLibre Opacity Demo</title>
+    <style>
+        body { margin: 0; padding: 0; }
+        html, body { height: 100%; }
+        #mapContainer {height: 70%;}
+    </style>
+</head>
+
+<body>
+    <div id="text">
+        <h1>ThreeJS on MapLibre opacity demo</h1>
+        <p>The black color in the square has it's alpha set to 0.   Note that the renderer background shows through instead of the map underneath.</p>
+        <p>Using <code>discard</code> in the fragment shader to exclude any color with alpha=0 is 
+            one workaround, but would prefer ThreeJS to render as fully transparent.
+        </p>
+    </div>
+    <br/>
+    <div id="mapContainer"></div>
+    <script src="./src/maptest.js" type="module"></script>
+  </body>

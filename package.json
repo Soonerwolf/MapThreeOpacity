@@ -1,0 +1,20 @@
+{
+  "name": "mapthreeopacity",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "vite": "^7.1.12"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "maplibre-gl": "^5.9.0",
+    "three": "^0.180.0"
+  },
+  "scripts": {
+    "start": "vite"
+  }
+}
