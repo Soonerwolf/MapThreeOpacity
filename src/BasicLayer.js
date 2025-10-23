@@ -38,7 +38,7 @@ export class BasicLayer
         const texSize = texDim * texDim;
         let colorBuffer = new Uint8Array(texSize * 4);
 
-        let colorValue = [255,0,0,255];
+        let colorValue = [0,0,0,255];
         let i = 0;
         while (i < texSize)
         {
